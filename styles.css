@@ -1,0 +1,28 @@
+.links-container {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.link {
+    width: auto;
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    font: 15px Helvetica;
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
