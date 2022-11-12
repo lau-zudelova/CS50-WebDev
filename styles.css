@@ -26,3 +26,44 @@ a:visited {
 a:hover {
     text-decoration: underline;
 }
+
+.search-container{
+    display: flex;
+    flex: 1;
+    height: 100vh;
+}
+
+.search {
+    margin: auto;
+    width: 60vh;
+    text-align: center;
+    text-justify: center;
+}
+
+input[type=text] {
+    width: 80%;
+    padding: 1vh 4vh;
+    border-radius: 20px;
+    border-color: rgb(57, 57, 57);
+    border-style: solid;
+    margin-bottom: 2vh;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-size: 3%;
+    background-repeat: no-repeat;
+}
+
+input[type=submit] {
+    padding: 1vh;
+    border-style: none;
+    background-color: rgb(236, 236, 236);
+    border-radius: 5px;
+}
+
+
+input[type=submit]:hover {
+    cursor: pointer;
+    box-shadow: 3px 3px 4px rgba(0,0,0,.8);
+
+    x y blur spreaD
+}
