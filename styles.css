@@ -9,7 +9,7 @@
     height: 20px;
     padding: 10px;
     text-align: center;
-    color: black;
+    color:rgb(44, 43, 43);
     font: 15px Helvetica;
     text-decoration: none;
 }
@@ -20,7 +20,7 @@ a:link {
 
 a:visited {
     text-decoration: none;
-    color: black;
+    color:rgb(44, 43, 43);
 }
 
 a:hover {
@@ -56,14 +56,15 @@ input[type=text] {
 input[type=submit] {
     padding: 1vh;
     border-style: none;
-    background-color: rgb(236, 236, 236);
-    border-radius: 5px;
+    background-color: #eeefef;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    color:rgb(44, 43, 43);
 }
 
 
 input[type=submit]:hover {
     cursor: pointer;
-    box-shadow: 3px 3px 4px rgba(0,0,0,.8);
-
-    x y blur spreaD
+    box-shadow: 0px 2px 1px -1px rgba(184, 184, 184, 0.3);
+    border: 1px solid #d0d1d4;
 }
