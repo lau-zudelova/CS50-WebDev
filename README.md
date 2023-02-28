@@ -1,4 +1,4 @@
-# CS50
+# CS50 Web Dev
 
 This is my implementation of CS50's Web Programming with Python and JavaScript! Every project specification (copied and pasted into Issues and in Projects) is from this course. The course is listed in Sources.
 
